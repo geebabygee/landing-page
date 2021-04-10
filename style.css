@@ -1,0 +1,81 @@
+/* Write some CSS below */
+h1, h2, h3 {
+  font-family: 'Train One', cursive;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(230,230,230);
+  margin: 0;
+}
+
+a {
+  color: #ce1212;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #810000;
+}
+
+/*Custom Design*/
+
+.banner {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 45px;
+}
+
+.banner p {
+  font-size: 25px;
+  opacity: 0.7;
+}
+
+.btn-red {
+  background-color: #ce1212;
+  color: white;
+  padding: 18px 25px;
+  border-radius: 5px;
+}
+
+.btn-red:hover {
+  background-color: #810000;
+  color: white;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+}
+
+.footer {
+  background-color: black;
+  padding: 60px 10px;
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+
+
